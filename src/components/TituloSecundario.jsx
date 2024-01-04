@@ -1,5 +1,5 @@
-const Amigo = () =>{
-    return <h1>Hello my friend!</h1>
+const Amigo = (props) =>{
+    return <><h1>{props.saludo}</h1></>
 }
 
 export default Amigo;
